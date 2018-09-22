@@ -6,7 +6,7 @@ int ch;
 
 while((ch = getchar()) != EOF) {
 
-if(ch == ' ' || ch == '\n' || ch == '\t')
+if(ch == ' ' || ch == '\n' || ch == '\t') {
 	putchar('\n');
 else
 	putchar('*');
